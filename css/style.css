@@ -119,7 +119,7 @@ section {
 	margin-bottom: 100px;
 }
 
-dd {
+.dd-title {
 	color:  #464b4f;
 	font-size: 18px;
 	font-weight: 700;
@@ -128,7 +128,7 @@ dd {
 	margin-left: 0;
 }
 
-dt {
+.dt-content {
 	color: #888a8b;
 	font-size: 18px;
 	font-weight: 400;
@@ -138,7 +138,7 @@ dt {
 	margin-top: 8px;
 }
 
-div {
+.defenition {
 	display: inline-block;
 	margin-right: 10px;
 	margin-left: 4px;
