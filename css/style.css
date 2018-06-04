@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 	font-weight: 400;
@@ -27,15 +31,115 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 183px;
+  margin-top: 156px;
+  margin-bottom: 37px;
 }
 
 .hdr-paragraph {
   font-size: 18px;
-  color: rgb(255, 255, 255);
+  color:  #ffffff;
   line-height: 1.667;
   text-align: center;
-  width: 413px;
+  width: 420px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button {
+	display: block;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color:  #ffffff;
+	border-style: solid;
+	width: 41px;
+	height: 41px;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 182px;
+}
+
+.button:active {
+	background-color: #ffffff;
+}
+
+.button-arrow {
+	display: block;
+	border-width: 2px;
+	border-right: solid;
+  border-bottom: solid;
+	border-color:  #ffffff;
+	width: 8px;
+	height: 8px;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  transform: rotate(45deg);
+}
+
+section {
+	background-image: url(../img/background.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+  position: absolute;
+}
+
+.main-paragraph {
+	color:  #464b4f;
+	font-size: 30px;
+	line-height: 42px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 856px;
+}
+
+.main-paragraph:first-child {
+		margin-top: 114px;
+}
+
+.main-paragraph:nth-child(2) {
+		margin-top: 44px;
+}
+
+.main-title {
+	display: block;
+	color:  #464b4f;
+	font-size: 80px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 89px;
+}
+
+.main-defenition {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+}
+
+.dd-title {
+	color:  #464b4f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 42px;
+	text-align: left;
+	margin-left: 0;
+}
+
+.dt-content {
+	color: #888a8b;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	width: 302px;
+	margin-top: 8px;
+}
+
+.defenition {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 4px;
 }
